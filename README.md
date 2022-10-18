@@ -1,7 +1,7 @@
 ﻿# Ntrip Client
 Initiated by Oscar Siu
 
- **Last update: 13 Sep 2022**
+ **Last update: 18 Oct 2022**
 
 Ntrip client to collect network RTK GNSS data and decode to RTCM message through python.
 
