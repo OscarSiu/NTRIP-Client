@@ -1,7 +1,7 @@
 ﻿# Ntrip Client
 Initiated by Oscar Siu
 
- **Last update: 18 Oct 2022**
+ **Last update: 20 Oct 2022**
 
 Ntrip client to collect network RTK GNSS data and decode to RTCM message through python.
 
@@ -44,6 +44,12 @@ Reference: (https://www.geodetic.gov.hk/sc/satref/kf_rawstream.htm)
 	  --Header              Write headers to stderr
 	  --HeaderFile=HEADERFILE
 							Write headers to this file, instead of stderr.
+
+#### Steps
+
+1. Extract Python-3.6.4-arm32.zip and place folders under /system/vendor/
+2. Extract pyrtcm.zip and place folder under /system/vendor/lib/python3.6/
+3. Replace /etc/profile and source
 
  ` python3.6 ntrip_client.py -u hkast -p hkast941 -m 1000  -r 100 -v -D 9999  59.152.234.19 2103 HKST -f log/test.log -t 22.4264184 -g 114.2033127 `
 
