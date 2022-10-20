@@ -45,6 +45,6 @@ Reference: (https://www.geodetic.gov.hk/sc/satref/kf_rawstream.htm)
 	  --HeaderFile=HEADERFILE
 							Write headers to this file, instead of stderr.
 
- #### Command: python ntrip_client.py -u hkast -p hkast941 -m 1000  -r 100 -v -D 9999  59.152.234.19 2103 HKST -f log/test.log -t 22.4264184 -g 114.2033127
+ ` python3.6 ntrip_client.py -u hkast -p hkast941 -m 1000  -r 100 -v -D 9999  59.152.234.19 2103 HKST -f log/test.log -t 22.4264184 -g 114.2033127 `
 
 Debugging log files and binary data texts can be found in the log folder.
